@@ -50,6 +50,22 @@
       style:color={$dark ? "#e3e3e3" : "black"}
       onclick={() => ($dark = 1 - $dark)}>{$dark ? "W" : "D"}</button
     >
+    <div
+      style="
+        display: inline-block;
+        position: absolute;
+        right: 4em;
+        top:0.8em;
+        font-size: 1.2em;
+    "
+    >
+      <a
+        href="https://github.com/tzzl3035/tzzl-site"
+        style:color={$dark ? "#325fcd" : "#273e75"}
+      >
+        Github Repo ↗
+      </a>
+    </div>
   </div>
 
   {@render children()}
